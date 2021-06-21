@@ -18,7 +18,7 @@
 </style>
 
 <div class="row cabecera" style="padding-bottom:2%;">
-  
+  <div class="container"><div class="row">
     <div class="col-md-2 col-12 logos-header" style="text-align: right; margin-top:1.5%;">
 
     <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/LogoVer-1.png" alt="Logo-Galardon" width="70%" height="auto">
@@ -40,5 +40,5 @@
     
     <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/logo@3x.png" alt="Logo-ACM" width="85%" height="auto">
     </div>
-    
+    </div></div>
 </div>

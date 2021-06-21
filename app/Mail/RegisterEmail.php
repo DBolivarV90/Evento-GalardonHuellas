@@ -28,6 +28,6 @@ class RegisterEmail extends Mailable
      */
     public function build()
     {
-        return $this->from("info@inspiradoresmedtronic.com")->view('emails.registeremail');
+        return $this->from("comunicaciones@galardonhuellas.com")->view('emails.registeremail');
     }
 }
