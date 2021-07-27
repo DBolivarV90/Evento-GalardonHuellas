@@ -7,16 +7,37 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\RegisterEmail;
+use Validator;
+
 class RegisterController extends Controller
 {
     public function index(){
       
-        return view("register.index");
+        $message = "";
+
+        return view("register.index", compact('message'));
 
     }
 
     public function store(Request $request)
     {
+        $rules = ['email'   => 'unique:users'];
+
+        $customErrorMessages = ['email.unique' => 'Correo Electronico registrado.'];
+
+        $validator = Validator::make($request->all(), $rules, $customErrorMessages);
+
+        $message = ""; 
+        if ($validator->fails()) {
+            
+            $errors = [];
+
+            foreach($validator->errors()->toArray() as $error){
+                $message = $error[0];
+                return view("register.index", compact('message'));
+            }
+        }
+
         $user= new User();
         $user->fill($request->all());
         $user->save();
@@ -27,22 +48,14 @@ class RegisterController extends Controller
         Mail::to($to_email)->send(new RegisterEmail);
 
         if(Mail::failures() != 0) {
-            return "<p> Success! Your E-mail has been sent.</p>";
+            return redirect('https://www.galardonhuellas.com/gracias/');
+        }else {
+            $message = "TU email no fue enviado ocurrio un error inesperado"; 
+
+            view("register.index", compact('message'));
         }
 
-        else {
-            return "<p> Failed! Your E-mail has not sent.</p>";
-        }
-
-
-
-        return redirect()->route('register.index')->with([
-            'feedback' => [
-                'type' => 'toastr',
-                'action' => 'success',
-                'message' => 'Usuario registrado exitosamente'
-            ]
-        ]);
+        
     }
 
    

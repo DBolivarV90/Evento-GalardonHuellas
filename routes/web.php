@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\{RegisterController};
+use App\Http\Controllers\{RegisterController,EventoController};
+use App\Http\Middleware\Authenticate;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +17,9 @@ use App\Http\Controllers\{RegisterController};
 
 Route::get('/',  [RegisterController::class, 'index'])->name('register.index');
 Route::post('/register', [RegisterController::class, 'store'])->name('register.store');
+Route::get('/login',[EventoController::class, 'login'])->name('login');
+Route::post('/login', [EventoController::class, 'store'])->name('login.store');
+Route::middleware(['auth'])->group(function () {
+    Route::get('/evento',[EventoController::class, 'index'])->name('evento.index');
+});
+

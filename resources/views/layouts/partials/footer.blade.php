@@ -7,6 +7,19 @@
         margin-bottom: 40px!important;
     }
 
+    .patrocinadores{
+        margin-top: 5%;
+    }
+    .fila-logos{
+        margin:0!important;
+    }
+    .logo-quebradona{
+        width: 70%!important;
+    }
+    .img-logos{
+        margin: 0 !important;
+    }
+
 }
 </style>
 
@@ -15,49 +28,110 @@
 
 <br><br>
     <div class="row">
-        <div class="col-12" style="text-align:center;">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-7.png" alt="patrocinadores">   
+     
+        <div class="col-md-6 col-12" style="text-align:center;">
+           <div class="col-12"> <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-29.png" alt="patrocinadores"></div>
+           <div class="col-12"> <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-28.png" alt="patrocinadores"></div>
+               
+        </div>
+        <div class="col-md-6 col-12 patrocinadores" style="text-align:center;">
+           <div class="col-12"> <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-30.png" alt="patrocinadores"></div>
+            <div class="col-12"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-8.png" alt="patrocinadores"></div>
+               
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12" style="text-align:center;">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-8.png" alt="patrocinadores">   
-        </div>
-    </div>
+    <br><br>
  <br>
     <div class="row">
         <div class="col-12" style="text-align:center;">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-6.png" alt="Aliados">   
+            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-32.png" alt="Aliados">   
         </div>
     </div>
 
     <br>
 
+    
+
+    <br><br><br>
+
+    <!--Inicio Carrusel footer-->
+
+
+   
+
+    
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<div id="carousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-4" style="text-align:center;">
+          <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-3.png" alt="Mineros-logo">
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+          <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-4.png" alt="Continental-logo">
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+          <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-2.png" alt="Mineros-logo">
+        </div>
+        
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+      <div class="col-md-4" style="text-align:center;">
+        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-5.png" alt="Mineros-logo">
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-23.png" alt="Cerrejon-logo">
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Quebradona1-e1625081671569.png" alt="quebradona-logo" width="250px" height="auto">
+        </div>
+        </div>
+    
+
+    </div>
+
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4" style="text-align:center;">
+        
+        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/logo-eslogan-iz-mc-scaled-e1625671780225.jpg" alt="Mineros-logo" width="50%">
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/Gerens.png" alt="Universidad-logo" width="55%">
+        </div>
+        <div class="col-md-4" style="text-align:center;">
+        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/IDO_Logo_HrztTag_Positive-1.png" alt="DO-logo" width="55%">
+        </div>
+     </div>
+    
+
+    </div>
+  
+  <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+    <!--Fin Carrusel Footer-->
+  
+    <br><br><br>
     <div class="row">
-    
-        <div class="col-1">
-        </div>
-
-        <div class="col-md-2 col-12 logos-footer">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-3.png" alt="Mineros-logo">
-        </div>
-
-        <div class="col-md-4 col-12 logos-footer" style="text-align: center; margin-top: 1%">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-4.png" alt="Continental-logo">
-        </div>
-
-        <div class="col-md-2 col-12 logos-footer" style="text-align: right">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-2.png" alt="Mineros-logo">
-        </div>
-
-        <div class="col-md-2 col-12 logos-footer" style="text-align: right">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-5.png" alt="Mineros-logo">
-        </div>
-
-        <div class="col-1">
-        </div>
-    
+    <div class="col-12" style="color:#26204E; text-align:center; font-weight:400;">Una idea liberada por: <a href="https://monodual.com/" style="color:#26204E">Monodual</a> </div>
     </div>
 
 </div>

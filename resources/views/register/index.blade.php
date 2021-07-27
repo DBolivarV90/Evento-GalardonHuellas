@@ -20,21 +20,7 @@ color: white;
 
     color:white;
 }
-.carousel-control-prev{
-    background-color: #26204E;
-    border-radius: 150px;
-    height: 40px;
-    width: 40px;
 
-}
-.carousel-control-next{
-    background-color: #26204E;
-    border-radius: 150px;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    
-}
 .cronometro{
 
     background-color: #4ecc8a;
@@ -55,6 +41,23 @@ color: white;
 .form-principal
 {
     margin-top:30px!important;
+}
+.imagen-carruselprincipal{
+
+    width: 100%!important;
+    height: auto!important;
+}
+.register-word{
+    text-align: center!important;
+    width:80%!important;
+    margin: 0;
+
+}
+.register-logos{
+
+    width: 80%!important;
+    margin:0;
+
 }
 
 }
@@ -78,38 +81,13 @@ color: white;
 
 
     <div class="row" style="margin-top: 4%; padding: 0;">
-        <div class="col-md-7 col-12" style="padding: 0; margin-top:10px">
-        <!--Empieza el codigo del Carousel-->
-                    <br><br><br>
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    
-                    <div class="carousel-inner">
-                         <div class="carousel-item active">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/KVhHorizontal.png" class="d-block w-100" alt="first-image" width="auto" height="300px">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/Emprendedora.png" class="d-block w-100" alt="second-image" width="auto" height="300px">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/embajadoradeEmpresasMineras-1.png" class="d-block w-100" alt="thrid-image" width="auto" height="300px">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-
-        <!--Termina el codigo del carousel-->
-        </div>
+        
 
         <div class="col-md-5 col-12 form-principal" style="padding: 0% 5% 0 5%;">
-        <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-14.png" alt="registrate">
+            <div class="row">
+                <div class="col-md-5 register-word"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-14-e1624555088157.png" alt="registrate" width="110%" style="margin-top: 24px;"></div>
+                <div class="col-md-7 register-logos" style="text-align: left"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Huellas-LogoFormularioSuperior.png" alt="registrate" width="110%" height="auto" style="margin-left: -10px;"></div>
+            </div>
         <form action="{{route('register.store')}}" method="POST">
                             <div class="row">
                                 <div class="col-12" style="margin-bottom:10px">
@@ -139,13 +117,13 @@ color: white;
                                 </div>
 
                                 <div class="col-12" style="margin-bottom:10px">
-                                <input type="text" name="twitter" class="form-control formulario" placeholder="Twitter" required>
+                                <input type="text" name="twitter" class="form-control formulario" placeholder="Twitter">
                                 </div>
 
-                                <div class="col-12" style="margin-bottom:10px">
-                                <label><input type="checkbox" id="cbox1" value="first_checkbox" style="#56497A; opacity: 0.7;"> Acepto Términos y condiciones </label><br>
+                                <div class="col-12" style="margin-bottom:10px" >
+                                <label><input type="checkbox" id="cbox1" value="first_checkbox" style="#56497A; opacity: 0.7;" required> Acepto Términos y condiciones </label><br>
                                 </div>
-                            
+                               <div class="col-12"><h2>{{ $message }}</h2></div>  
 
                                 <div class="col-12" style="margin-bottom:10px">
                                 @csrf
@@ -153,6 +131,41 @@ color: white;
                             </div>
                         </div>
                     </form>
+        </div>
+        <div class="col-md-7 col-12" style="padding: 0% 5% 0 5%; margin-top:10px">
+        <!--Empieza el codigo del Carousel-->
+                    <br><br><br>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                         <div class="carousel-item active">
+                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/Landing-Panel.jpg" class="d-block w-100 imagen-carruselprincipal" alt="first-image" width="534" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/ACM_GH_Landing-02.jpg" class="d-block w-100 imagen-carruselprincipal" alt="first-image" width="auto" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/ACM_GH_Landing-03.jpg" class="d-block w-100 imagen-carruselprincipal" alt="second-image" width="auto" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/ACM_GH_Landing-04.jpg" class="d-block w-100 imagen-carruselprincipal" alt="thrid-image" width="auto" height="300px">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/ACM_memoLanding_Mesa_de_trabajo_1.jpg" class="d-block w-100 imagen-carruselprincipal" alt="thrid-image" width="auto" height="300px">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+        <!--Termina el codigo del carousel-->
         </div>
     </div>
 

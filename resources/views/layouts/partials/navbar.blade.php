@@ -11,6 +11,13 @@
 {
     text-align: center!important;
     margin-left: 0%!important;
+    
+}
+.logos-h1{
+    width:30%!important;
+}
+.logos-h2{
+    width:40%!important;
 }
 
 }
@@ -19,26 +26,26 @@
 
 <div class="row cabecera" style="padding-bottom:2%;">
   <div class="container"><div class="row">
-    <div class="col-md-2 col-12 logos-header" style="text-align: right; margin-top:1.5%;">
+    <div class="col-md-3 col-12 logos-header" style="text-align: right; margin-top:1.5%;">
 
-    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/LogoVer-1.png" alt="Logo-Galardon" width="70%" height="auto">
+    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/LogoVer-1.png" alt="Logo-Galardon" width="40%" height="auto" class="logos-h1">
 
     </div>
 
-    <div class="col-md-3 col-12 logos-header" style="text-align: left; margin-top:3.5%;">
+    <div class="col-md-3 col-12 logos-header" style="text-align: left; margin-top:2.5%;">
     
-    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/slogan.png" alt="Logo2-Galardon" width="75%" height="auto">
+    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/slogan.png" alt="Logo2-Galardon" width="75%" height="auto" class="logos-h2">
     </div>
 
-    <div class="col-md-4 col-12 logos-header" style="margin-top: 2.5%; margin-left:-5%; text-align:left;">
-    <p> El Galardón HuEllas en el crecimiento de la industria es un reconocimiento que busca resaltar la labor 
-        de mujeres trabajadoras y aliadas del sector minero que, muchas veces de forma anónima, 
-        contribuyen al desarrollo de esta actividad, su entorno y el país.</p>
+    <div class="col-md-6 col-12 logos-header" style="margin-top: 2.5%; margin-left:-5%; text-align:left;">
+    <p>  <b style="color:#5fffb1">Únete al evento que reconoce a las mujeres que dejan HuElla en la industria minera:</b> a las trabajadoras y aliadas
+         del sector minero que, muchas veces de forma anónima, contribuyen al desarrollo de esta actividad, su entorno 
+         y el país. <b style="color:#5fffb1">Te esperamos para conocer a las Embajadoras HuEllas 2021. Regístrate a continuación:</b> </p>
     </div>
-
+<!--
     <div class="col-md-3 col-12 logos-header" style="margin-top: 2.5%; text-align: left">
     
-    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/logo@3x.png" alt="Logo-ACM" width="85%" height="auto">
-    </div>
+    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/logo@3x.png" alt="Logo-ACM" width="75%" height="auto">
+    </div>-->
     </div></div>
 </div>

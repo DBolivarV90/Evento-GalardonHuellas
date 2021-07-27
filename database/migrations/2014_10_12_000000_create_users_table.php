@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('company');
             $table->string('email')->unique();
             $table->string('number_phone');
-            $table->string('twitter');
+            $table->string('twitter')->nullable();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
             $table->rememberToken();
