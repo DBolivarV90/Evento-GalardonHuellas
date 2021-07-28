@@ -30,13 +30,13 @@
     <div class="row">
      
         <div class="col-md-6 col-12" style="text-align:center;">
-           <div class="col-12"> <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-29.png" alt="patrocinadores"></div>
-           <div class="col-12"> <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-28.png" alt="patrocinadores"></div>
+           <div class="col-12"> <img src="{{ asset('imagenes/Recurso-29.png') }}" alt="patrocinadores"></div>
+           <div class="col-12"> <img src="{{ asset('imagenes/Recurso-28.png') }}" alt="patrocinadores"></div>
                
         </div>
         <div class="col-md-6 col-12 patrocinadores" style="text-align:center;">
-           <div class="col-12"> <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-30.png" alt="patrocinadores"></div>
-            <div class="col-12"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-8.png" alt="patrocinadores"></div>
+           <div class="col-12"> <img src="{{ asset('imagenes/Recurso-30.png') }}" alt="patrocinadores"></div>
+            <div class="col-12"><img src="{{ asset('imagenes/Recurso-8.png') }}" alt="patrocinadores"></div>
                
         </div>
     </div>
@@ -45,7 +45,7 @@
  <br>
     <div class="row">
         <div class="col-12" style="text-align:center;">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-32.png" alt="Aliados">   
+            <img src="{{ asset('imagenes/Recurso-32.png') }}" alt="Aliados">   
         </div>
     </div>
 
@@ -71,13 +71,13 @@
     <div class="carousel-item active">
       <div class="row">
         <div class="col-md-4" style="text-align:center;">
-          <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-3.png" alt="Mineros-logo">
+          <img class="img-logos" src="{{ asset('imagenes/Recurso-3.png') }}" alt="Mineros-logo">
         </div>
         <div class="col-md-4" style="text-align:center;">
-          <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-4.png" alt="Continental-logo">
+          <img class="img-logos" src="{{ asset('imagenes/Recurso-4.png') }}" alt="Continental-logo">
         </div>
         <div class="col-md-4" style="text-align:center;">
-          <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-2.png" alt="Mineros-logo">
+          <img class="img-logos" src="{{ asset('imagenes/Recurso-2.png') }}" alt="Mineros-logo">
         </div>
         
         
@@ -86,13 +86,13 @@
     <div class="carousel-item">
       <div class="row">
       <div class="col-md-4" style="text-align:center;">
-        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-5.png" alt="Mineros-logo">
+        <img class="img-logos" src="{{ asset('imagenes/Recurso-5.png') }}" alt="Mineros-logo">
         </div>
         <div class="col-md-4" style="text-align:center;">
-        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-23.png" alt="Cerrejon-logo">
+        <img class="img-logos" src="{{ asset('imagenes/Recurso-23.png') }}" alt="Cerrejon-logo">
         </div>
         <div class="col-md-4" style="text-align:center;">
-        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Quebradona1-e1625081671569.png" alt="quebradona-logo" width="250px" height="auto">
+        <img class="img-logos" src="{{ asset('imagenes/Quebradona1-e1625081671569.png') }}" alt="quebradona-logo" width="250px" height="auto">
         </div>
         </div>
     
@@ -103,13 +103,13 @@
       <div class="row">
         <div class="col-md-4" style="text-align:center;">
         
-        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/logo-eslogan-iz-mc-scaled-e1625671780225.jpg" alt="Mineros-logo" width="50%">
+        <img class="img-logos" src="{{ asset('imagenes/logo-eslogan-iz-mc-scaled-e1625671780225.jpg') }}" alt="Mineros-logo" width="50%">
         </div>
         <div class="col-md-4" style="text-align:center;">
-        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/Gerens.png" alt="Universidad-logo" width="55%">
+        <img class="img-logos" src="{{ asset('imagenes/Gerens.png') }}" alt="Universidad-logo" width="55%">
         </div>
         <div class="col-md-4" style="text-align:center;">
-        <img class="img-logos" src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/IDO_Logo_HrztTag_Positive-1.png" alt="DO-logo" width="55%">
+        <img class="img-logos" src="{{ asset('imagenes/IDO_Logo_HrztTag_Positive-1.png') }}" alt="DO-logo" width="55%">
         </div>
      </div>
     

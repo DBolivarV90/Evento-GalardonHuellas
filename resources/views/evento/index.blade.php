@@ -25,7 +25,7 @@
     <div class="row">
 
         <div class="col-md-7">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/agalardonHuellas.png" alt="Bienvenidos">
+            <img src="{{ asset('imagenes/agalardonHuellas.png') }}" alt="Bienvenidos">
             <div class="responsiveContent">
                 <iframe src="https://www.youtube.com/embed/AuvzaUG-IA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>    
@@ -33,7 +33,7 @@
 
         <div class="col-md-5">
            <div style="text-align:center">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/Recurso-20.png" alt="Hola">
+            <img src="{{ asset('imagenes/Recurso-20.png') }}" alt="Hola">
            </div> 
                 <h2 style="color:#26204E; font-weight:bold; text-align:center">{{ auth()->user()->name}} </h2>
             <div class="container">

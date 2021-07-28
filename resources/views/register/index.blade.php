@@ -73,7 +73,7 @@ color: white;
    
    <div class="row cronometro">
         <div class="col-md-12" style="text-align:center;">
-            <a href="https://evento.galardonhuellas.com/login"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/abannerLanding.png" alt="Ingresa-Evento" width="100%" class="banner-ingresa-evento"></a>
+            <a href="https://evento.galardonhuellas.com/login"><img src="{{ asset('imagenes/abannerLanding.png') }}" alt="Ingresa-Evento" width="100%" class="banner-ingresa-evento"></a>
         </div>
     </div>
 
@@ -83,8 +83,8 @@ color: white;
 
         <div class="col-md-5 col-12 form-principal" style="padding: 0% 5% 0 5%;">
             <div class="row">
-                <div class="col-md-5 register-word"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-14-e1624555088157.png" alt="registrate" width="110%" style="margin-top: 24px;"></div>
-                <div class="col-md-7 register-logos" style="text-align: left"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Huellas-LogoFormularioSuperior.png" alt="registrate" width="110%" height="auto" style="margin-left: -10px;"></div>
+                <div class="col-md-5 register-word"><img src="{{ asset('imagenes/Recurso-14-e1624555088157.png') }}" alt="registrate" width="110%" style="margin-top: 24px;"></div>
+                <div class="col-md-7 register-logos" style="text-align: left"><img src="{{ asset('imagenes/Huellas-LogoFormularioSuperior.png') }}" alt="registrate" width="110%" height="auto" style="margin-left: -10px;"></div>
             </div>
         <form action="{{route('register.store')}}" method="POST">
                             <div class="row">
@@ -137,19 +137,19 @@ color: white;
                     
                     <div class="carousel-inner">
                          <div class="carousel-item active">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/Landing-Panel.jpg" class="d-block w-100 imagen-carruselprincipal" alt="first-image" width="534" height="300px">
+                            <img src="{{ asset('imagenes/Landing-Panel.jpg') }}" class="d-block w-100 imagen-carruselprincipal" alt="first-image" width="534" height="300px">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/ACM_GH_Landing-02.jpg" class="d-block w-100 imagen-carruselprincipal" alt="first-image" width="auto" height="300px">
+                            <img src="{{ asset('imagenes/ACM_GH_Landing-02.jpg') }}" class="d-block w-100 imagen-carruselprincipal" alt="first-image" width="auto" height="300px">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/ACM_GH_Landing-03.jpg" class="d-block w-100 imagen-carruselprincipal" alt="second-image" width="auto" height="300px">
+                            <img src="{{ asset('imagenes/ACM_GH_Landing-03.jpg') }}" class="d-block w-100 imagen-carruselprincipal" alt="second-image" width="auto" height="300px">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/ACM_GH_Landing-04.jpg" class="d-block w-100 imagen-carruselprincipal" alt="thrid-image" width="auto" height="300px">
+                            <img src="{{ asset('imagenes/ACM_GH_Landing-04.jpg') }}" class="d-block w-100 imagen-carruselprincipal" alt="thrid-image" width="auto" height="300px">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/ACM_memoLanding_Mesa_de_trabajo_1.jpg" class="d-block w-100 imagen-carruselprincipal" alt="thrid-image" width="auto" height="300px">
+                            <img src="{{ asset('imagenes/ACM_memoLanding_Mesa_de_trabajo_1.jpg') }}" class="d-block w-100 imagen-carruselprincipal" alt="thrid-image" width="auto" height="300px">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

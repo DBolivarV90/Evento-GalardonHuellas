@@ -34,13 +34,13 @@
   <div class="container"><div class="row logos-cabecera" style="margin-left: -115px;">
     <div class="col-md-3 col-12 logos-header" style="text-align: right; margin-top:1.5%;">
 
-    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/LogoVer-1.png" alt="Logo-Galardon" width="40%" height="auto" class="logos-h1">
+    <img src="{{ asset('imagenes/LogoVer-1.png') }}" alt="Logo-Galardon" width="40%" height="auto" class="logos-h1">
 
     </div>
 
     <div class="col-md-3 col-12 logos-header" style="text-align: left; margin-top:2.5%;">
     
-    <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/slogan.png" alt="Logo2-Galardon" width="75%" height="auto" class="logos-h2">
+    <img src="{{ asset('imagenes/slogan.png') }}" alt="Logo2-Galardon" width="75%" height="auto" class="logos-h2">
     </div>
 
     <div class="col-md-6 col-12 logos-header" style="margin-top: 2.5%; margin-left:-5%; text-align:left;">
