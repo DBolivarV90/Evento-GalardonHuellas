@@ -23,7 +23,7 @@ color: white;
 
 .cronometro{
 
-    background-color: #4ecc8a;
+    
     height: auto;
     margin-top: 4%;
     color: white;
@@ -49,7 +49,7 @@ color: white;
 }
 .register-word{
     text-align: center!important;
-    width:80%!important;
+    width:70%!important;
     margin: 0;
 
 }
@@ -57,6 +57,11 @@ color: white;
 
     width: 80%!important;
     margin:0;
+
+}
+.banner-ingresa-evento{
+    width: 120% !important;
+    margin-left: -34px!important;
 
 }
 
@@ -67,15 +72,8 @@ color: white;
 <div class="row">
    
    <div class="row cronometro">
-        <div class="col-md-7 col-12" style="text-align:center;">
-            <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/06/Recurso-13-e1624211927373.png" alt="etiqueta-cronometro" width="75%" height="auto">
-        </div>
-        <div class="col-md-5 col-12">
-           
-        <p class="cuenta-regresiva">
-        <span id="days"></span> d:  <span id="hours"></span> h:   <span id="minutes"></span> m:  <span id="seconds"></span> s
-    </p>
-
+        <div class="col-md-12" style="text-align:center;">
+            <a href="https://evento.galardonhuellas.com/login"><img src="https://www.galardonhuellas.com/wp-content/uploads/2021/07/abannerLanding.png" alt="Ingresa-Evento" width="100%" class="banner-ingresa-evento"></a>
         </div>
     </div>
 
@@ -185,7 +183,7 @@ color: white;
         //===
         // VARIABLES
         //===
-        const DATE_TARGET = new Date('07/28/2021 8:00 AM');
+        const DATE_TARGET = new Date('07/30/2021 8:00 AM');
         // DOM for render
         const SPAN_DAYS = document.querySelector('span#days');
         const SPAN_HOURS = document.querySelector('span#hours');

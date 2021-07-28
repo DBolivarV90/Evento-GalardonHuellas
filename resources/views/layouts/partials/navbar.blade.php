@@ -6,7 +6,13 @@
     color: white; 
     
 }
+
 @media only screen and (max-width: 1024px) {
+ 
+.logos-cabecera{
+    margin-left:0!important;
+}
+    
 .logos-header
 {
     text-align: center!important;
@@ -25,7 +31,7 @@
 </style>
 
 <div class="row cabecera" style="padding-bottom:2%;">
-  <div class="container"><div class="row">
+  <div class="container"><div class="row logos-cabecera" style="margin-left: -115px;">
     <div class="col-md-3 col-12 logos-header" style="text-align: right; margin-top:1.5%;">
 
     <img src="https://www.galardonhuellas.com/wp-content/uploads/2021/04/LogoVer-1.png" alt="Logo-Galardon" width="40%" height="auto" class="logos-h1">
@@ -40,7 +46,7 @@
     <div class="col-md-6 col-12 logos-header" style="margin-top: 2.5%; margin-left:-5%; text-align:left;">
     <p>  <b style="color:#5fffb1">Únete al evento que reconoce a las mujeres que dejan HuElla en la industria minera:</b> a las trabajadoras y aliadas
          del sector minero que, muchas veces de forma anónima, contribuyen al desarrollo de esta actividad, su entorno 
-         y el país. <b style="color:#5fffb1">Te esperamos para conocer a las Embajadoras HuEllas 2021. Regístrate a continuación:</b> </p>
+         y el país.</p>
     </div>
 <!--
     <div class="col-md-3 col-12 logos-header" style="margin-top: 2.5%; text-align: left">
