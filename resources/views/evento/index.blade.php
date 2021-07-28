@@ -17,6 +17,12 @@
   width: 100%;
   height: 100%;
 }
+@media only screen and (max-width: 1024px) {
+.bienvenida-video{
+    width: 100%!important;
+}
+
+}
 
 </style>
 
@@ -25,10 +31,11 @@
     <div class="row">
 
         <div class="col-md-7">
-            <img src="{{ asset('imagenes/agalardonHuellas.png') }}" alt="Bienvenidos">
+            <img src="{{ asset('imagenes/agalardonHuellas.png') }}" alt="Bienvenidos" width="80%" class="bienvenida-video">
             <div class="responsiveContent">
-                <iframe src="https://www.youtube.com/embed/AuvzaUG-IA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>    
+                <iframe src="https://www.youtube.com/embed/T5pMS7GPV-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>    
         </div>
 
         <div class="col-md-5">
